@@ -1,0 +1,93 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 12px;
+  color: white;
+  min-height: 100%;
+  color: white;
+}
+
+body{
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size:  cover;
+  height: 100vh;
+  /* background-color: black;; */
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main{
+  /* border:1px solid black; */
+  height: 80%;
+}
+h1{
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+h2{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+li{
+  font-size: 14px;
+  /* border-bottom: 1px solid black; */
+  /* margin-top: 2%; */
+}
+
+section{
+  background-color: rgba(240, 248, 255, 0.7);
+  border-radius: 5px;
+  /* border: 3px solid red; */
+  height: 100%;
+
+}
+
+.routeConnections h2{
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.routeConnections h2:first-child{
+  margin-top: 0;
+}
+
+
+.routeConnections p{
+  font-size: 14px;
+}
+
+.stops span{
+font-weight: bold;
+font-size: 20px;
+}
+
+.go{
+  font-size: 14px;
+  font-weight: bold;
+}
